@@ -1,0 +1,97 @@
+
+.docplanner-heder{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+a{
+    color: #636161 ;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+   color:#636161 ;
+   margin: 0 300px 0 300px;
+   }
+
+.active{
+    color: #00b39b;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.logo-docplanner{
+    height: 300px;
+    width: 300px;
+    margin-top: 0;
+}
+
+.introduction-title{
+    color: #00b39b;
+
+}
+.introduction-text{
+    display: flex;
+}
+.services {
+    display: flex;
+}
+.service-card{
+    padding:20px;
+    border-radius: 5px;  
+    color: white;
+    margin: 10px;
+}
+
+.service-card-patients{
+    background-color: #00ccb1;
+
+}
+.service-card-doctors{
+    background-color:rgb(125, 125, 230) ;
+}
+
+.service-card-clinics{
+    background-color:#1b2734 ;
+
+}
+.logo-docplanner{
+    width: 260PX;
+    height: 33px;
+}
+.sevice-card-brand{
+    display: flex;
+}
+.brand-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+align-content: space-around;
+justify-content:flex-start;
+align-items: flex-start;
+
+}
+
+.brand-logo li{
+    padding: 10px;
+}
+.sevice-card-brand h1 {
+    color: #00b39b;
+}
+.platform{
+    background-color:#d8f6f6;
+}
+.platform-grid h1{
+    color:#00b39b;
+    font-size: 20px;
+
+
+}
+.platform-grid h2{
+  color: #252626;
+  font-size: 10PX;
+}
